@@ -1,0 +1,11 @@
+CREATE TABLE categories_translation (id BIGINT, name VARCHAR(255) NOT NULL UNIQUE, image VARCHAR(255), lang CHAR(2), slug VARCHAR(255), UNIQUE INDEX categories_translation_sluggable_idx (slug, lang, name), PRIMARY KEY(id, lang)) ENGINE = INNODB;
+CREATE TABLE categories (id BIGINT AUTO_INCREMENT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, root_id BIGINT, lft INT, rgt INT, level SMALLINT, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE countries_translation (id BIGINT, name VARCHAR(255) NOT NULL, lang CHAR(2), PRIMARY KEY(id, lang)) ENGINE = INNODB;
+CREATE TABLE countries (id BIGINT AUTO_INCREMENT, status TINYINT(1) DEFAULT '1', PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE languages (id BIGINT AUTO_INCREMENT, name VARCHAR(255) NOT NULL, culture VARCHAR(255) NOT NULL UNIQUE, image VARCHAR(255) NOT NULL, status TINYINT(1) DEFAULT '1', PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE states_translation (id BIGINT, name VARCHAR(255) NOT NULL, lang CHAR(2), PRIMARY KEY(id, lang)) ENGINE = INNODB;
+CREATE TABLE states (id BIGINT AUTO_INCREMENT, country_id BIGINT NOT NULL, status TINYINT(1) DEFAULT '1', INDEX country_id_idx (country_id), PRIMARY KEY(id)) ENGINE = INNODB;
+ALTER TABLE categories_translation ADD CONSTRAINT categories_translation_id_categories_id FOREIGN KEY (id) REFERENCES categories(id) ON UPDATE CASCADE ON DELETE CASCADE;
+ALTER TABLE countries_translation ADD CONSTRAINT countries_translation_id_countries_id FOREIGN KEY (id) REFERENCES countries(id) ON UPDATE CASCADE ON DELETE CASCADE;
+ALTER TABLE states_translation ADD CONSTRAINT states_translation_id_states_id FOREIGN KEY (id) REFERENCES states(id) ON UPDATE CASCADE ON DELETE CASCADE;
+ALTER TABLE states ADD CONSTRAINT states_country_id_countries_id FOREIGN KEY (country_id) REFERENCES countries(id) ON DELETE CASCADE;

@@ -1,0 +1,43 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+ .array:
+    pages: 
+      BOTH:         'Both'
+      HOME_PAGE:    'Home'
+      INNER_PAGE:   'Inner Page' 
+
+    ad_type: 
+      BANNER:       'Banner'
+      FLASH:        'Flash' 
+      ADD_SENCE:    'Google AdSence' 
+
+    ad_position:
+      LEADERBOARD:         'Leaderboard (728x90)'
+      LEADERBOARD350:      'Leaderboard (350x90)'
+      SIDEBAR125:          'Right Sidebar (125x125)'
+      SIDEBAR200:          'Right Sidebar (200x200)'
+      MIDDLE300X250:       'Middle (300x250)'
+    
+    SIDEBAR125:        
+       width:  125
+       height: 125
+       size:   30000000 
+    LEADERBOARD:    
+       width:  728
+       height: 90
+       size:   60000000 
+    LEADERBOARD350:    
+       width:  350
+       height: 90
+       size:   50000000 
+    SIDEBAR200:   
+       width:  200
+       height: 200
+       size:   30000000 
+    MIDDLE300X250:
+       width:  300
+       height: 250
+       size:   90000000 

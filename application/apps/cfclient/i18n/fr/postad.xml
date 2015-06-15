@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<xliff version="1.0">
+    <file original="global" source-language="en_US" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_post_ad</source>
+                <target>Viesti mainokset</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>cap_title</source>
+                <target>Otsikko</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_price</source>
+                <target>Hinta</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>cap_name</source>
+                <target>Name</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_seller_info</source>
+                <target>Myyjän tiedot</target>
+            </trans-unit>	
+	  
+
+
+            <trans-unit id="5">
+                <source>cap_description</source>
+                <target>Kuvaus</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_email</source>
+                <target>Sähköposti</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>cap_map</source>
+                <target>Kartta</target>
+            </trans-unit>
+
+            <trans-unit id="8">
+                <source>cap_zip</source>
+                <target>Vetoketju</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_reply_to</source>
+                <target>Vastaa</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_phone</source>
+                <target>Puhelin</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>msg_title_required</source>
+                <target>Otsikko tarvitaan</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>msg_description_required</source>
+                <target>Kuvaus vaaditaan</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>msg_email_required</source>
+                <target>Sähköposti vaaditaan</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_price_required</source>
+                <target>Hinta tarvitaan</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_name_required</source>
+                <target>Nimi vaaditaan</target>
+            </trans-unit>
+	  
+            <trans-unit id="26">
+                <source>msg_phone_required</source>
+                <target>Puhelinnumero on pakollinen</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_invalid_email</source>
+                <target>Kirjoita voimassa oleva sähköpostiosoite</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_zip_required</source>
+                <target>Zip tarvitaan</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_invalid_price</source>
+                <target>Anna kelvollinen hinta</target>
+            </trans-unit>
+	  
+            <trans-unit id="27">
+                <source>msg_invalid_phone</source>
+                <target>Syötä kelvollinen puhelinnumero</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_image_upload_limit_exist</source>
+                <target>Kuvat upload raja ylitetty.</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>cap_classi_list</source>
+                <target>Luettelo</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>cap_description</source>
+                <target>Kuvaus</target>
+            </trans-unit>
+
+
+            <trans-unit id="27">
+                <source>cap_gallery</source>
+                <target>Galleria</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>cap_share</source>
+                <target>Osuus</target>
+            </trans-unit>
+	  
+            <trans-unit id="27">
+                <source>cap_ads_cover_image</source>
+                <target>Mainokset Cover Image</target>
+            </trans-unit>
+
+            <trans-unit id="28">
+                <source>cap_ads_image</source>
+                <target>Kuva</target>
+            </trans-unit>
+
+            <trans-unit id="28">
+                <source>cap_caption</source>
+                <target>Kuvateksti</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>cap_add_more_image</source>
+                <target>Lisätä kuvia</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_upload_image</source>
+                <target>Lähetä kuvat</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>post_classifiled_title</source>
+                <target>Lähetä vapaa luokiteltu mainoksia</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_submit_and_images</source>
+                <target>Lähetä ja Lähetä kuva</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_submit_complete</source>
+                <target>Lähetä ja täydellinen</target>
+            </trans-unit>
+	  
+            <trans-unit id="30">
+                <source>cap_cancel</source>
+                <target>Peruuttaa</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_back</source>
+                <target>Takaisin</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_complete</source>
+                <target>Täydellinen</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_select_country</source>
+                <target>Valitse maa</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_select_state</source>
+                <target>Valitse tila</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_select_city</source>
+                <target>Valitse kaupunki</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_city</source>
+                <target>Valitse kaupunki</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_post_country</source>
+                <target>Valitse maa</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_state</source>
+                <target>Valitse valtion</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_location</source>
+                <target>Sijainti</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_category</source>
+                <target>Luokka</target>
+            </trans-unit>
+	  
+            <trans-unit id="26">
+                <source>cap_add_file</source>
+                <target>Lisää tiedostoja ...</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_start_upload</source>
+                <target>Aloita lähettäminen</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_cancel_upload</source>
+                <target>Peruuta Lähetä</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_delete_upload</source>
+                <target>Poistaa</target>
+            </trans-unit>
+	  
+            <trans-unit id="26">
+                <source>cap_notes</source>
+                <target>Huomautuksia</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_note1</source>
+                <target>Tiedostojen maksimimäärä %num_files%.</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_note2</source>
+                <target>Maksimi tiedostokoko on %size%.</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_note3</source>
+                <target>Only image files (%files%) are allowed.</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_note4</source>
+                <target>Voit (%drag_drop%) tietokoneelta tämän sivun.</target>
+            </trans-unit>	  	  
+	  	  
+            <trans-unit id="26">
+                <source>cap_note5</source>
+                <target>Ensimmäinen kuva tulee sinun kansikuva.</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_replyad</source>
+                <target>Vastaa ilmoitukseen</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_category</source>
+                <target>Valitse luokka</target>
+            </trans-unit>
+	  
+            <trans-unit id="26">
+                <source>msg_select_category</source>
+                <target>Valitse luokka</target>
+            </trans-unit>	  
+
+            <trans-unit id="26">
+                <source>post_reply_success</source>
+                <target>Vastaus on lähetetty onnistuneesti</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_enter_message</source>
+                <target>Viesti on tarpeen</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_min_message</source>
+                <target>Viesti on oltava vähintään %min_length% merkkiä.</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_max_message</source>
+                <target>Viesti voi olla pidempi kuin %max_length% merkkiä.</target>
+            </trans-unit>
+
+
+            <trans-unit id="26">
+                <source>msg_enter_email</source>
+                <target>Sähköposti vaaditaan</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_enter_name</source>
+                <target>Nimi vaaditaan</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_select_language</source>
+                <target>Kieli vaaditaan</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_language</source>
+                <target>Kieli</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_language</source>
+                <target>Valitse kieli</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_photo</source>
+                <target>Kuvat</target>
+            </trans-unit>
+	  
+
+            <trans-unit id="26">
+                <source>cap_post</source>
+                <target>Jätä ilmoitus</target>
+            </trans-unit>
+
+
+        </body>
+    </file>
+</xliff>

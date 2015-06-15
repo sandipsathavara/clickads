@@ -1,0 +1,29 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  file_limit: 10
+  number_records: 20  
+  .array:
+    image_size:
+#       l: 
+#        w:    720
+#         h:    720
+#         type: scale
+#       b: 
+#         w:    770 
+#         h:    390
+#         type: scale 
+       b: 
+         w:    350 
+         h:    350
+         type: scale 
+#       m: 
+#         w:    250 
+#         h:    250
+#         type: scale
+       s: 
+         w:    114
+         h:    86
+         type: scale

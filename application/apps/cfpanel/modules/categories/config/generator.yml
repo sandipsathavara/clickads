@@ -1,0 +1,31 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Categories
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          categories
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+        display: [ name ]
+        table_method: doSelect
+        max_per_page:   2000
+        object_actions:
+          new:  { label: "Add Child"}
+          _edit:      ~
+          _delete:    ~
+        batch_actions:
+          _delete: ~
+      filter:  false
+      form: ~
+      edit:    ~
+      new:     ~  

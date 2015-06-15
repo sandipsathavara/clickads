@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Ads
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          ads
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+         date  : { label: Activated?, help: "Leave bank for no time limit" }
+      list:    
+         display: [name, page_value, position_value, ad_type_value,is_published]
+      filter:
+         display: [name, page, position, ad_type,is_published]
+      form:    
+         display: [name, page, position, ad_type,  banner_image, ad_data, target_url, date, is_published]
+      edit:    ~
+      new:     ~

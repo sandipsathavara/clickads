@@ -1,0 +1,206 @@
+Languages:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  columns:
+      name:       { type: string(255), notnull: true , unique: true}
+      culture:    { type: string(255), notnull: true }
+      is_default: { type: boolean, default: 0 }
+      status:     { type: boolean, default: 1 }
+
+Categories:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name,image]
+    NestedSet:
+      hasManyRoots: true
+      rootColumnName: root_id
+  columns:
+    name:      { type: string(255), notnull: true}
+    image:     { type: string(255), notnull: false}
+  relations:
+    Posts:     { onDelete: CASCADE , local: id  , foreign: cat_id , type: many }
+      
+Countries:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs:
+    I18n:
+      fields: [name]
+  columns:
+      name:     { type: string(255), notnull: true }
+      currency: { type: string(10), notnull: true, default: 'INR' } 
+      status:   { type: boolean, default: 1 }
+
+Pages:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs:
+    I18n:
+      fields: [title,decription]
+  columns:
+      title:       { type: string(255), unique: true, notnull: true }
+      slug:        { type: string(255), unique: true, notnull: true } 
+      decription:  { type: string(), notnull: true }
+      status:      { type: boolean, default: 1 }
+      is_default:  { type: boolean, default: 0 }
+  indexes:
+      slug:        { fields: [slug] }
+      is_default:  { fields: [is_default] }
+
+Emails:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs:
+    I18n:
+      fields: [title,from_name,subject,body]
+  columns:
+      title:       { type: string(255), notnull: true, unique: true}
+      from_email:  { type: string(255), notnull: true}
+      from_name:   { type: string(255), notnull: true}
+      subject:     { type: string(255), notnull: true }
+      body:        { type: string(), notnull: true }
+      status:      { type: boolean, default: 1 }
+
+States:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs:
+    I18n:
+      fields: [name]
+  columns:
+      country_id: { type: integer(20), notnull: true }
+      name:       { type: string(255), notnull: true }
+      is_popular: { type: boolean, default: 0 }  
+      status:     { type: boolean, default: 1 }
+  relations:
+    Countries: { onDelete: CASCADE, local: country_id, foreign: id } 
+
+Citys:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs:
+    I18n:
+      fields: [name]
+  columns:
+      country_id: { type: integer(20), notnull: true }
+      state_id:   { type: integer(20), notnull: true }
+      name:       { type: string(255), notnull: true }
+      is_popular: { type: boolean, default: 0 }  
+      status:     { type: boolean, default: 1 }
+  relations:
+    Countries: { onDelete: CASCADE, local: country_id, foreign: id }
+    States:    { onDelete: CASCADE, local: state_id, foreign: id } 
+
+Users:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs: { Timestampable: ~ }
+  columns:
+      email:            { type: string(255), notnull: true, unique: true }
+      password:         { type: string(255), notnull: true }
+      nickname:         { type: string(255), notnull: true }
+      skype:            { type: string(255), notnull: true }
+      salt:             { type: string(64), notnull: true }
+      verify_code:      { type: string(64), notnull: true }
+      alert_flag:       { type: boolean, default: 0 }
+      skype_flag:       { type: boolean, default: 0 }
+      unique_code:      { type: string(255), default: 1 }
+      watch_list_count: { type: integer, notnull: true }
+      last_login:       { type: timestamp, notnull: true }
+      ip_address:       { type: string(255), notnull: true }
+      status:           { type: boolean, default: 1 }
+      user_type:        { type: enum, default: 'user', values: [admin, user] }
+      ads_count:        { type: integer, default: 0 }
+      post_ads_limit:   { type: integer, notnull: true }
+
+Posts:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs:  
+    Timestampable: ~ 
+  columns:
+      user_id:         { type: integer(20) , notnull: true }
+      country_id:      { type: integer(20) , notnull: true }
+      state_id:        { type: integer(20) , notnull: true }
+      city_id:         { type: integer(20) , notnull: true }
+      cat_id:          { type: integer(20) , notnull: true }
+      lang:            { type: string(20)  , notnull: true , default: 'en'}
+      title:           { type: string(255) , notnull: true }
+      description:     { type: string()    , notnull: true }
+      name:            { type: string(255) , notnull: true }
+      price:           { type: float       , notnull: true }
+      phone:           { type: string(20)  , notnull: true }
+      reply_to:        { type: string(255) , notnull: true }
+      zip:             { type: integer(20) , notnull: true }
+      status:          { type: enum, default: 'publish', values: [publish,unpublish,banned] }
+      is_featured:     { type: boolean, default: 0 }
+  relations:
+#    Users:             { onDelete: CASCADE , local: user_id    , foreign: id }
+    Countries:         { onDelete: CASCADE , local: country_id , foreign: id }
+    States:            { onDelete: CASCADE , local: state_id   , foreign: id }
+    Citys:             { onDelete: CASCADE , local: city_id    , foreign: id } 
+    Categories:        { onDelete: CASCADE , local: cat_id     , foreign: id }
+    PostImages:        { onDelete: CASCADE , local: id         , foreign: post_id , type: many }
+    PostImage:         { onDelete: CASCADE , local: id         , foreign: post_id , class: PostImages }
+
+PostImages:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs: { Timestampable: ~ }
+  columns:
+      post_id:       { type: integer      , notnull: true }
+      image:         { type: string       , notnull: true }
+      is_cover:      { type: boolean      , default: 0 }
+  relations:
+    Posts:           { onDelete: CASCADE , local: post_id , foreign: id  }
+
+Ads:
+  options:
+    type: InnoDB
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs: { Timestampable: ~ } 
+  columns:
+      name:         { type: string(255) , notnull: true }  
+      page:         { type: string(255) , notnull: true }
+      position:     { type: string(255) , notnull: true }
+      ad_type:      { type: string(255) , notnull: true }
+      target_url:   { type: string(255) , notnull: true } 
+      ad_data:      { type: string      , notnull: false }
+      banner_image: { type: string(255) , notnull: false }
+      start_dt:     { type: timestamp   , notnull: true }
+      end_dt:       { type: timestamp   , notnull: false }
+      is_published: { type: boolean     , default: 1 }
+
+Setting:
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+  actAs: { Timestampable: ~ } 
+  columns:
+      name:      { type: string(40) , notnull: true, unique: true }  
+      value:     { type: clob , notnull: true }
+      type:      { type: enum, default: 'STRING', values: [STRING,INTEGER,BOOLEAN] }

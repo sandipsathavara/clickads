@@ -1,0 +1,37 @@
+Languages:
+  columns:
+      name:     { type: string(255), notnull: true}
+      culture:  { type: string(255), notnull: true, unique: true}
+      image:    { type: string(255), notnull: true}
+      status:   { type: boolean, default: 1 }
+Categories:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name,image]
+      actAs:
+        Sluggable: { fields: [name], uniqueBy: [lang, name] }	
+    NestedSet:
+      hasManyRoots: true
+      rootColumnName: root_id
+  columns:
+      name:     { type: string(255), notnull: true, unique: true}
+      image:    { type: string(255), notnull: false}
+Countries:
+  actAs:
+    I18n:
+      fields: [name]
+  columns:
+      name:     { type: string(255), notnull: true}
+      status:   { type: boolean, default: 1 }
+States:
+  actAs:
+    I18n:
+      fields: [name]
+  columns:
+      country_id: { type: integer(20), notnull: true}
+      name:       { type: string(255), notnull: true}
+      status:     { type: boolean, default: 1 }
+  relations:
+    Countries: { onDelete: CASCADE, local: country_id, foreign: id, foreignAlias: States } 
+

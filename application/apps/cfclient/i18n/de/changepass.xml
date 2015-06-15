@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="de_de" datatype="plaintext">
+        <body>
+
+            <trans-unit id="1">
+                <source>cap_change_password</source>
+                <target>Passwort Ändern</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>cap_old_password</source>
+                <target>Altes Passwort</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_new_password</source>
+                <target>Neues Passwort</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_retype_new_password</source>
+                <target>Passwort Nochmal Eingeben</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>cap_email</source>
+                <target>E-mail</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>msg_enter_email</source>
+                <target>Bitte eine gültige E-mail angeben</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>msg_email_not_exist</source>
+                <target>E-mail existiert nicht</target>
+            </trans-unit>
+
+            <trans-unit id="8">
+                <source>msg_new_password_sent</source>
+                <target>Ein neues Passwort wurde an dich geschickt. Bitte check deine E-mails.</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_click</source>
+                <target>Hier Klicken</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>cap_dear</source>
+                <target>Liebe/r</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>cap_text_email</source>
+                <target>Deine E-mail ist</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_text_password</source>
+                <target>Dein neues passwort lautet</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>msg_worng_old_password</source>
+                <target>Falsches oder Altes Passwort</target>
+            </trans-unit>
+
+            <trans-unit id="14">
+                <source>cap_forgetpassword_sent_msg</source>
+                <target>Neues Passwort wurde an deine E-mail gesendet, bitte check deine E-mails . </target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>msg_old_password_required</source>
+                <target>Altes Passwort wird benötigt</target>
+            </trans-unit>
+
+            <trans-unit id="16">
+                <source>msg_new_password_required</source>
+                <target>Neues Passwort wird benötigt</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>msg_retype_new_password_required</source>
+                <target>Passwort nochmal eingeben</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>msg_min_new_password</source>
+                <target>Neues Passwort muss mindestens %min_length% charactere haben</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>msg_max_new_password</source>
+                <target>Passwort darf nicht mehr als %max_length% charactere haben</target>
+            </trans-unit>
+
+
+            <trans-unit id="19">
+                <source>msg_min_retype_new_password</source>
+                <target>Altes Passwort wird benötigt</target>
+            </trans-unit>
+
+            <trans-unit id="20">
+                <source>msg_max_retype_new_password</source>
+                <target>Passwort wird benötigt</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>cap_submit</source>
+                <target>SENDEN</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>msg_password_not_match</source>
+                <target>Eingegebenes Passwort muss gleich sein wie das alte</target>
+            </trans-unit>
+
+            <trans-unit id="23">
+                <source>chanage_password_title</source>
+                <target>Passwort Ändern</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

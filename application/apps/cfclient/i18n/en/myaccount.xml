@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="en_US" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_user</source>
+                <target>My Account</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>cap_my_ads</source>
+                <target>My Ads</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_logout</source>
+                <target>Logout</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_myaccount</source>
+                <target>My Account</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>msg_delete_record</source>
+                <target>Are you Sure ?.</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>msg_post_delete</source>
+                <target>Post has been deleted successfully.</target>
+            </trans-unit>	 
+	  
+            <trans-unit id="7">
+                <source>cap_change_password</source>
+                <target>Change Password</target>
+            </trans-unit>
+	  	  
+
+        </body>
+    </file>
+</xliff>

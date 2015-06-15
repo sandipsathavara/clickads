@@ -1,0 +1,31 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Countries
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          countries
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+         name: { label: Name }
+      list:    
+         display: [ name,currency,status ]
+         table_method: doSelectJoinTranslation1
+         object_actions:
+               addstate: { label: "Add State" }
+               _edit:      ~
+               _delete:    ~
+      filter:  ~
+      form:  
+         display: [ <?php echo implode(',' , LanguagesTable::getAllActiveLanguage() ) ?> ,currency,status ]
+      edit:    
+        title: Editing Country <i>"%%name%%"</i>
+      new:     
+         title: New Country

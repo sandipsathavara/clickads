@@ -1,0 +1,11 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+
+  stylesheets:    [cfclient/cfclient.css,skin.css,'SpryTabbedPanels.css','colorbox.css','jquery.bxslider.css']
+
+  javascripts:    [cfclient,'SpryTabbedPanels','jquery.colorbox.js','jquery.carouFredSel.min.js','jquery.bxslider.min.js']
+
+  has_layout:     true
+  layout:         layout

@@ -1,0 +1,128 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+city_category:
+  url:    /category/:city
+  param:  { module: home, action: category }
+  #class:  sfDomainRoute
+
+postdetail:
+  url:     /:sub_cat_slug/:post_slug.html
+  param:   { module: home, action: postdetail, sub_cat_slug:'', post_slug:''  }
+
+state_list:
+  url:    /state/:id_state
+  param:  { module: home, action: state,id_state:1 }
+
+change_lang:
+  url:    /:sf_culture/language/:language
+  param:  { module: home, action: language }
+
+change_city_province:
+  url:    /change/city_province/:name/:id/:flag
+  param:  { module: home, action: changeprovince , name:'',flag:'', id:'' }
+
+
+state_show:
+  url:     /:state_slug.html
+  class:   sfDoctrineRoute 
+  options: { model: States, type: object }
+  param:   { module: home, action: state }
+
+post_ads:
+  url:     /postsfclassi
+  param:   { module: user, action: postads }
+
+add_post_ads:
+  url:    /addsfclassi
+  param:  { module: user, action: postads }
+
+upload_post_image:
+  url:    /:sf_culture/addsfclassi/images
+  param:  { module: user, action: images }
+
+upload_images:
+  url:    /addsfclassi/uploadimages
+  param:  { module: user, action: uploadimages }
+
+postdelete:
+  url:    /:id/delete
+  param:  { module: user, action: delete,id:1 }
+
+category:
+  url:     /listing/:cat_slug/:sub_cat_slug.html
+  param:   { module: home, action: listPosts }
+
+register:
+  url:    /sign-up
+  param:  { module: user, action: index }
+
+signin:
+  url:    /sign-in
+  param:  { module: login, action: index }
+
+myaccount:
+  url:    /myaccount
+  param:  { module: user, action: myaccount }
+
+reset_password:
+  url:    /change_password
+  param:  { module: user, action: changepassword }
+
+forget_password:
+  url:    /forget_password
+  param:  { module: login, action: forgetpassword }
+
+forget_password_sent:
+  url:    /forget_password_success
+  param:  { module: login, action: forgetpasswordsent }
+
+myads:
+  url:    /myads
+  param:  { module: user, action: myaccount }
+  
+search_post:
+  url:    /searchads
+  param:  { module: home, action: search }
+
+logout:
+  url:   /logout
+  param: { module: login, action: logout }
+
+post_ad:
+  url:   /postad
+  param: { module: user, action: postad }
+
+cms_page:
+  url:    /:page
+  param:  { module: home, action: page }
+
+SfDependentSelectAjax:
+  url:   /sfDependentSelectAuto/_ajax
+  param: { module: sfDependentSelectAuto, action: _ajax }  
+
+location:
+  url:    /country/province
+  param: { module: home, action: province }
+
+
+more_states_cities:
+  url:    /us/all-states
+  param: { module: home, action: allStates }
+
+
+# default rules
+homepage:
+  url:    /
+  param: { module: home, action: category }
+
+# generic rules
+# please, remove them by adding more specific rules
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+

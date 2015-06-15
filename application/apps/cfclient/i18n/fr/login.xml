@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="en_FR" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_email</source>
+                <target>Sähköposti</target>
+            </trans-unit>
+	  
+            <trans-unit id="2">
+                <source>cap_password</source>
+                <target>salasana</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>msg_email_required</source>
+                <target>Sähköposti vaaditaan</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>msg_password_required</source>
+                <target>Tarvitaan salasana</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>cap_logout_success</source>
+                <target>logout onnistui</target>	  
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_login</source>
+                <target>Kirjaudu sisään</target>	  
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>msg_username_password_wrong</source>
+                <target>Virheellinen sähköpostiosoite tai salasana</target>	  
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>cap_rememberme</source>
+                <target>Pidä minut kirjautuneena</target>	  
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>cap_create_new_account</source>
+                <target>Luo uusi tili</target>	  
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>cap_forget_password</source>
+                <target>Unohtuiko salasana?</target>
+            </trans-unit>
+
+            <trans-unit id="39">
+                <source>cap_login_me</source>
+                <target>KIRJAUDU MINUA</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

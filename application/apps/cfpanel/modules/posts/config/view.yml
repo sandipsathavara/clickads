@@ -1,0 +1,10 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  stylesheets:    []
+
+  javascripts:    [/sfPanelThemePlugin/js/jquery.js,jquery-ui.min.js,cfpanel.js,tiny_mce/tiny_mce.js,swfobject-895.js]
+
+  has_layout:     true
+  layout:         layout

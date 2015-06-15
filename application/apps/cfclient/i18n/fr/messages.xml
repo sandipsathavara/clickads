@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+    <file source-language="FR" target-language="fr" datatype="plaintext" original="messages" date="2011-08-01T16:21:06Z" product-name="messages">
+        <body> 
+            <trans-unit id="1">
+                <source>cap_register_now</source>
+                <target>Ilmoittautua</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>cap_sign_in</source>
+                <target>Kirjaudu sisään</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>cap_name</source>
+                <target>Nimi</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_email</source>
+                <target>Sähköposti</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_messages</source>
+                <target>Viestit</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_phone</source>
+                <target>Puhelin</target>
+            </trans-unit>
+	  
+            <trans-unit id="3">
+                <source>cap_help</source>
+                <target>Apua</target>
+            </trans-unit>
+	  
+            <trans-unit id="4">
+                <source>cap_select_country</source>
+                <target>Tervetuloa %website_title% - Valitse maa</target>
+            </trans-unit>
+	  
+            <trans-unit id="5">
+                <source>cap_select_city</source>
+                <target>Valitse kaupunki</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>cap_select_category</source>
+                <target>Valitse luokka</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_search_select_category</source>
+                <target>Valitse luokka</target>
+            </trans-unit>
+	  
+            <trans-unit id="7">
+                <source>cap_register</source>
+                <target>Ilmoittautua</target>
+            </trans-unit>
+
+            <trans-unit id="8">
+                <source>welcome</source>
+                <target>Tervetuloa</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_advertise</source>
+                <target>Mainostaa</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>cap_advertise_tag</source>
+                <target>Mainosta SfClassi</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>cap_home</source>
+                <target>Koti</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_faq</source>
+                <target>Faq</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>cap_condition</source>
+                <target>Ehto</target>
+            </trans-unit>
+
+	  
+            <trans-unit id="15">
+                <source>msg_record_not_found</source>
+                <target>Mainokset Ei saatavilla</target>
+            </trans-unit>
+
+            <trans-unit id="16">
+                <source>home_page_title</source>
+                <target>Tervetuloa SfClassi: Etsi Pikkuilmoitukset, Lähetä ilmainen Pikkuilmoituksia Elektroniikka, Real Estate, Jobs, Autot, Merchandise, harrastukset</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>home_page_description</source>
+                <target>Post Vapaa pikkuilmoitukset &amp; Search Verkossa Pikkuilmoituksia Elektroniikka, Real Estate, Jobs, Autot, Merchandise, harrastukset.</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>home_page_keywords</source>
+                <target>Luokitellut ilmoitukset Elektroniikka, Luokitellut ilmoitukset Real Estate, Luokitellut mainoksia työpaikkoja, Luokitellut ilmoitukset Autot, Luokitellut mainoksia Merchandise, Luokitellut ilmoitukset Harrastukset.</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>state_page_title</source>
+                <target>%state% Valtion Elektroniikka, Real Estate, Jobs, Autot, Merchandise, harrastukset</target>
+            </trans-unit>
+
+            <trans-unit id="20">
+                <source>state_page_decription</source>
+                <target>Mainoksia elektroniikka, Real Estate, Jobs, Autot, Merchandise, harrastukset</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>category_page_title</source>
+                <target>%city% Kaupunki Elektroniikka, Real Estate, Jobs, Autot, Merchandise, harrastukset</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>category_page_decription</source>
+                <target>Mainoksia elektroniikka, Real Estate, Jobs, Autot, Merchandise, harrastukset</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>myaccount_page_title</source>
+                <target>Oma tilini</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>image_page_title</source>
+                <target>Lähetä kuvat</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>post_ad_page_title</source>
+                <target>Post free classified ads</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>cap_nav_home</source>
+                <target>Koti</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_support</source>
+                <target>Tukea</target>
+            </trans-unit>
+
+            <trans-unit id="28">
+                <source>cap_submit</source>
+                <target>esittää</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>cap_view</source>
+                <target>Katsella</target>
+            </trans-unit>
+	
+            <trans-unit id="30">
+                <source>cap_delete</source>
+                <target>Poistaa</target>
+            </trans-unit>	  
+
+            <trans-unit id="31">
+                <source>cap_edit</source>
+                <target>Muokata</target>
+            </trans-unit>	  
+	  
+            <trans-unit id="32">
+                <source>cap_ad_here</source>
+                <target>Mainosta tässä</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_search_sfclassi</source>
+                <target>Hakumainoksia</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>power_by</source>
+                <target>Suunnittelu ja kehitys</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>copy_rights</source>
+                <target>SfClassi, Kaikki oikeudet pidätetään.</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>cap_select_category</source>
+                <target>Valitse luokka</target>
+            </trans-unit>
+	  
+            <trans-unit id="26">
+                <source>cap_replyad</source>
+                <target>Vastaa ilmoitukseen</target>
+            </trans-unit>
+
+
+            <trans-unit id="3">
+                <source>cap_about_us</source>
+                <target>Meistä</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_error404</source>
+                <target>Oops, Sivua ei löydy</target>
+            </trans-unit>	
+	  
+            <trans-unit id="33">
+                <source>cap_search</source>
+                <target>Hakutulos</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>cap_search_btn</source>
+                <target>Etsi</target>
+            </trans-unit>	
+
+
+            <trans-unit id="33">
+                <source>cap_select_category</source>
+                <target>Valitse luokka</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>cap_select_path</source>
+                <target>Väärä URL, valita maalla sitten valtion, City ja luokka</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>cap_post_ad</source>
+                <target>Post vapaa AD</target>
+            </trans-unit>	
+
+            <trans-unit id="6">
+                <source>cap_find_in</source>
+                <target>Etsi mainoksia</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_select_province</source>
+                <target>Aseta kaupunki tai maakunta %country%</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_popular_city</source>
+                <target>Suositut kaupungit</target>
+            </trans-unit>
+	  
+            <trans-unit id="6">
+                <source>cap_popular_states</source>
+                <target>suosittu Yhdysvallat</target>
+            </trans-unit>
+	  
+            <trans-unit id="6">
+                <source>change_city_province</source>
+                <target>Valitse kaupunki tai maakunta</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>upload_multiple_images</source>
+                <target>Lataa yli 10 kuvia, JPG, PNG, GIF-muodossa </target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>msg_post_edit_success</source>
+                <target>Viestejä on päivitetty onnistuneesti</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_more_states_cities</source>
+                <target>Useamman valtion ja kuntien</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>select_country</source>
+                <target>Valitse Koko maa</target>
+            </trans-unit>          	  
+
+            <trans-unit id="6">
+                <source>cap_remove</source>
+                <target>Poistaa</target>
+            </trans-unit>       
+
+            <trans-unit id="6">
+                <source>cap_are_you_sure</source>
+                <target>Oletko varma?</target>
+            </trans-unit>   
+
+
+        </body>
+    </file>
+</xliff>

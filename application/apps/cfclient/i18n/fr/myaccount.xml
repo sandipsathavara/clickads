@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="en_FR" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_user</source>
+                <target>Oma tilini</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>cap_my_ads</source>
+                <target>Omat ilmoitukset</target>
+            </trans-unit>
+
+
+            <trans-unit id="2">
+                <source>cap_my_account</source>
+                <target>Omat ilmoitukset</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_logout</source>
+                <target>Kirjaudu ulos</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_myaccount</source>
+                <target>Oma tilini</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>msg_delete_record</source>
+                <target>Oletko varma?.</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>msg_post_delete</source>
+                <target>sfClassi on poistettu onnistuneesti.</target>
+            </trans-unit>	  
+
+            <trans-unit id="7">
+                <source>cap_change_password</source>
+                <target>Muuta salasana</target>
+            </trans-unit>
+	  
+        </body>
+    </file>
+</xliff>

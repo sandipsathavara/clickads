@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+    <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2011-08-01T16:21:06Z" product-name="messages">
+        <body>
+            <trans-unit id="1">
+                <source>cap_register</source>
+                <target>Registrieren</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>cap_sign_in</source>
+                <target>Einloggen</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>cap_name</source>
+                <target>Name</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_email</source>
+                <target>E-mail</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_messages</source>
+                <target>Nachrichten</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_phone</source>
+                <target>Telefon</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_help</source>
+                <target>Hilfe</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_about_us</source>
+                <target>Über uns</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_select_country</source>
+                <target>Willkommen auf %website_title% - Land auswählen</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>cap_select_city</source>
+                <target>Stadt auswählen</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>cap_select_category</source>
+                <target>Kategorie auswählen</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_search_select_category</source>
+                <target>Kategorie auswählen</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>copy_rights</source>
+                <target>%website_title%, All rights reserved.</target>
+            </trans-unit>
+
+
+            <trans-unit id="8">
+                <source>welcome</source>
+                <target>Willkommen</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_advertise</source>
+                <target>Inserieren</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>cap_advertise_tag</source>
+                <target>Auf %website_title% inserieren</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>cap_home</source>
+                <target>Home</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_faq</source>
+                <target>Faq</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>cap_condition</source>
+                <target>AGB</target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>msg_record_not_found</source>
+                <target>Ads Not Available</target>
+            </trans-unit>
+
+            <trans-unit id="16">
+                <source>home_page_title</source>
+                <target>Search Classified Ads,Post Free Classifieds Ads for Electronics, Real Estate, Jobs, Autos, Merchandise, Hobbies</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>home_page_description</source>
+                <target>Post free classified ads &amp; Search online classifieds ads for Electronics,  Real Estate, Jobs, Autos, Merchandise, Hobbies.</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>home_page_keywords</source>
+                <target>classified ads for Electronics,Classifieds ads for Real Estate,Classifieds ads for Jobs,Classifieds ads for Autos,Classifieds ads for Merchandise,Classifieds ads for Hobbies.</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>state_page_title</source>
+                <target>%state% State for Electronics, Real Estate, Jobs, Autos, Merchandise, Hobbies</target>
+            </trans-unit>
+
+            <trans-unit id="20">
+                <source>state_page_decription</source>
+                <target>Ads for Electronics, Real Estate, Jobs, Autos, Merchandise, Hobbies</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>category_page_title</source>
+                <target>%location% City for Electronics, Real Estate, Jobs, Autos, Merchandise, Hobbies</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>category_page_decription</source>
+                <target>Ads for Electronics, Real Estate, Jobs, Autos, Merchandise, Hobbies</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>myaccount_page_title</source>
+                <target>My Ads</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>image_page_title</source>
+                <target>Upload Ads Images</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>post_ad_page_title</source>
+                <target>Post Classifield</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>cap_nav_home</source>
+                <target>Home</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_support</source>
+                <target>Support</target>
+            </trans-unit>
+
+            <trans-unit id="28">
+                <source>cap_submit</source>
+                <target>Submit</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>cap_view</source>
+                <target>View</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_delete</source>
+                <target>Delete</target>
+            </trans-unit>
+
+            <trans-unit id="31">
+                <source>cap_edit</source>
+                <target>Edit</target>
+            </trans-unit>
+
+            <trans-unit id="32">
+                <source>cap_ad_here</source>
+                <target>Advertise Here</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_search_sfclassi</source>
+                <target>Search ads</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>cap_select_category</source>
+                <target>Select Category</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_replyad</source>
+                <target>Reply To this Ad</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>power_by</source>
+                <target>Designing and Development</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_error404</source>
+                <target>Opps, Page Not Found</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_search</source>
+                <target>Search Result</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>cap_search_btn</source>
+                <target>Search</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_select_category</source>
+                <target>Select Category</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_select_path</source>
+                <target>Wrong URL , Please Select Country then State then City and Category </target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_post_ad</source>
+                <target>POST FREE AD</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_find_in</source>
+                <target>Find ads in</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_select_province</source>
+                <target>Set your city or province in %country%</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_popular_city</source>
+                <target>Popular Cities</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_popular_states</source>
+                <target>Popular States</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>change_city_province</source>
+                <target>Choose city or province</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>upload_multiple_images</source>
+                <target>Upload more than 10 images, In JPG,PNG,GIF format </target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>msg_post_edit_success</source>
+                <target>Posts has been updated successfully</target>
+            </trans-unit>
+
+
+            <trans-unit id="6">
+                <source>cap_more_states_cities</source>
+                <target>More States and Cities</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>select_country</source>
+                <target>Select Entire Country</target>
+            </trans-unit>
+
+
+            <trans-unit id="6">
+                <source>cap_remove</source>
+                <target>Remove</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>cap_are_you_sure</source>
+                <target>Are you sure ?</target>
+            </trans-unit>
+
+
+            <trans-unit id="6">
+                <source>cap_latest_free_ads</source>
+                <target>Latest Free ads</target>
+            </trans-unit>
+
+
+            <trans-unit id="6">
+                <source>cap_latest_featured_ads</source>
+                <target>Latest Featured Posts</target>
+            </trans-unit>
+
+
+            <trans-unit id="6">
+                <source>cap_featured_ads</source>
+                <target>Featured</target>
+            </trans-unit>
+
+
+            <trans-unit id="6">
+                <source>cap_unpublish</source>
+                <target>Unpublish</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_publish</source>
+                <target>Publish</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_feature_ad</source>
+                <target>Make it Feature ad</target>
+            </trans-unit>
+
+
+
+        </body>
+    </file>
+</xliff>

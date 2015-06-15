@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="en_FR" datatype="plaintext">
+        <body>
+	
+            <trans-unit id="1">
+                <source>cap_change_password</source>
+                <target>Muuta salasana</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>cap_old_password</source>
+                <target>Vanha salasana</target>
+            </trans-unit>
+	  
+            <trans-unit id="3">
+                <source>cap_new_password</source>
+                <target>Uusi salasana</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_retype_new_password</source>
+                <target>Vahvista salasana</target>
+            </trans-unit>
+	  	
+	
+            <trans-unit id="5">
+                <source>cap_email</source>
+                <target>Sähköposti</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>msg_enter_email</source>
+                <target>Anna kelvollinen Sähköposti</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>msg_email_not_exist</source>
+                <target>Tämä sähköpostiosoite ei ole</target>	  
+            </trans-unit>
+
+            <trans-unit id="8">
+                <source>msg_new_password_sent</source>
+                <target>Uusi salasana on lähetetty sähköpostiviestejä. Tarkista sähköpostisi.</target>	  
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_click</source>
+                <target>Klikkaa tästä</target>	  
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>cap_dear</source>
+                <target>Rakas</target>	  
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>cap_text_email</source>
+                <target>Sähköpostiosoitteesi on</target>	  
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_text_password</source>
+                <target>Uusi salasana on</target>	  
+            </trans-unit>	 
+
+            <trans-unit id="13">
+                <source>msg_worng_old_password</source>
+                <target>Virheellinen, väärä vanha salasana</target>	  
+            </trans-unit>	 
+
+            <trans-unit id="14">
+                <source>cap_forgetpassword_sent_msg</source>
+                <target>Uusi salasana on lähetetty onnistuneesti sähköpostiviesti, tarkista sinä sähköpostitilin.</target>	  
+            </trans-unit>	 
+	  
+
+            <trans-unit id="15">
+                <source>msg_old_password_required</source>
+                <target>Vanha salasana vaaditaan</target>	  
+            </trans-unit>	 
+
+            <trans-unit id="16">
+                <source>msg_new_password_required</source>
+                <target>Uusi salasana vaaditaan</target>	  
+            </trans-unit>	 
+
+            <trans-unit id="17">
+                <source>msg_retype_new_password_required</source>
+                <target>Vahvista salasana vaaditaan</target>	  
+            </trans-unit>	 
+
+            <trans-unit id="18">
+                <source>msg_min_new_password</source>
+                <target>Uuden salasanan täytyy olla vähintään %min_length% merkkiä</target>	  
+            </trans-unit>	 
+
+            <trans-unit id="19">
+                <source>msg_max_new_password</source>
+                <target>Salasana voi olla enintään %max_length% merkkiä</target>	  
+            </trans-unit>
+
+	  
+            <trans-unit id="21">
+                <source>cap_submit</source>
+                <target>LÄHETÄ</target>	  
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>msg_password_not_match</source>
+                <target>Vahvista salasana on sama kuin vanha salasana</target>	  
+            </trans-unit>
+
+            <trans-unit id="23">
+                <source>chanage_password_title</source>
+                <target>Vaihda salasana</target>	  
+            </trans-unit>
+	  
+	  	  
+	  
+        </body>
+    </file>
+</xliff>

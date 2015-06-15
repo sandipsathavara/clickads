@@ -1,0 +1,13 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/09-Cache
+
+changeprovince:
+    enabled:     false
+    with_layout: false   # Default value
+    lifetime:    86400   # Default value
+
+
+#default:
+#  enabled:     false
+#  with_layout: false
+#  lifetime:    86400

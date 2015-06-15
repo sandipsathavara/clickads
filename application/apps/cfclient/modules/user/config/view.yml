@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony,project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [cfclient/cfclient.css,jquery.jcarousel.css,skin.css,'colorbox.css']
+
+  javascripts:    [cfclient,tiny_mce/tiny_mce.js,'jquery.colorbox.js']
+
+  has_layout:     true
+  layout:         layout
+
+imagesSuccess: 
+  stylesheets:    [jquery.fileupload-ui.css]

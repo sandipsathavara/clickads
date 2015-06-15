@@ -1,0 +1,13 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  post_pagination: 10
+  my_account_pagination: 15
+  number_ads: 5
+  login: 1296000
+  sfDependentSelectPlugin:
+    js: normal
+
+   

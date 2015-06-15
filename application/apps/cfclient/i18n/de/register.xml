@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<xliff version="1.0">
+    <file original="global" source-language="en_US" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_registration</source>
+                <target>Registrieren</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_nickname</source>
+                <target>Nickname</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_password</source>
+                <target>Passwort</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_repeat_password</source>
+                <target>Passwort wiederholen</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_email</source>
+                <target>E-mail</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_verification_code</source>
+                <target>Verification Code</target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>I accept the Terms and Conditions</source>
+                <target>Ich Akzeptiere die AGB</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>msg_nickname_required</source>
+                <target>Nickname is required</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>msg_password_required</source>
+                <target>Password wird benötigt</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>msg_email_required</source>
+                <target>E-mail wird benötigt</target>
+            </trans-unit>
+
+            <trans-unit id="24">
+                <source>msg_retype_password_required</source>
+                <target>Passwort wiederholen</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_captcha_required</source>
+                <target>Bitte die charaktere vom Bild eingeben</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_invalid_email</source>
+                <target>Eine Gültige E-mail angeben</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>msg_password_not_match</source>
+                <target>Passwörter müssen übereinstimmen</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>msg_email_not_match</source>
+                <target>E-mails müssen übereinstimmen</target>
+            </trans-unit>
+
+            <trans-unit id="31">
+                <source>msg_invalid_captcha</source>
+                <target>Einen gültigen code angeben</target>
+            </trans-unit>
+
+            <trans-unit id="32">
+                <source>msg_invalid_length</source>
+                <target>Einen gültigen code angeben</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>msg_term_condition</source>
+                <target>AGB Akzeptieren</target>
+            </trans-unit>
+
+            <trans-unit id="34">
+                <source>msg_min_password</source>
+                <target>Passwort muss mindestens %min_length% Charaktere lang sein</target>
+            </trans-unit>
+
+            <trans-unit id="35">
+                <source>msg_max_password</source>
+                <target>Passwort darf nicht länger als %max_length% Charaktere lang sein</target>
+            </trans-unit>
+
+            <trans-unit id="36">
+                <source>msg_min_nickname</source>
+                <target>Nickname muss mindestens %min_length% Charaktere haben.</target>
+            </trans-unit>
+
+            <trans-unit id="37">
+                <source>msg_max_nickname</source>
+                <target>Nickname darf nicht länger als %max_length% Charaktere haben.</target>
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>msg_email_exist</source>
+                <target>Diese E-mail gibt es bereits</target>
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>cap_register_me</source>
+                <target>REGISTRIEREN</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

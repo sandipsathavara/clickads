@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Citys
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          citys
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+         name: { label: Name }
+         slug: { label: Sub Domain,help: E.g subd.example.com  }
+      list:
+         title: Cities List
+         display: [ name,states,countries,status ]
+         table_method: doSelectJoinTranslation
+      filter:  ~
+      form: 
+        display: [ country_id, state_id, <?php echo implode(',' , LanguagesTable::getAllActiveLanguage() ) ?>,is_popular,status ]
+
+      edit:
+        title: Editing City <i>"%%name%%"</i>
+      new:     
+         title: New City 

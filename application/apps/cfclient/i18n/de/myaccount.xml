@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="de_de" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_user</source>
+                <target>Mein Konto</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>cap_my_ads</source>
+                <target>Meine Announcen</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_logout</source>
+                <target>Ausloggen</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_myaccount</source>
+                <target>Mein Konto</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>msg_delete_record</source>
+                <target>Bist du sicher?</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>msg_post_delete</source>
+                <target>Announce wurde erfolgreich gelöscht.</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>cap_change_password</source>
+                <target>Passwort Ändern</target>
+            </trans-unit>
+
+
+        </body>
+    </file>
+</xliff>

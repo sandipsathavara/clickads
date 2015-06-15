@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="ar" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_email</source>
+                <target>البريد الإلكتروني</target>
+            </trans-unit>
+	  
+            <trans-unit id="2">
+                <source>cap_password</source>
+                <target>كلمة السر</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>msg_email_required</source>
+                <target>مطلوب البريد الإلكتروني</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>msg_password_required</source>
+                <target>مطلوب كلمة المرور</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>cap_logout_success</source>
+                <target>خروج بنجاح</target>	  
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_login</source>
+                <target>تسجيل الدخول</target>	  
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>msg_username_password_wrong</source>
+                <target>بريد إلكتروني غير صالح أو كلمة المرور</target>	  
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>cap_rememberme</source>
+                <target>ابقى على تسجيل الدخول</target>	  
+            </trans-unit>
+	  
+            <trans-unit id="7">
+                <source>cap_create_new_account</source>
+                <target>إنشاء حساب جديد</target>	  
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>cap_forget_password</source>
+                <target>نسيت كلمة السر؟</target>
+            </trans-unit>
+
+            <trans-unit id="39">
+                <source>cap_login_me</source>
+                <target>تسجيل الدخول البيانات</target>
+            </trans-unit>
+  
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Languages
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          languages
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields: ~
+      list:    
+        title: Languages Management
+        display: [=name, culture ,status]
+        object_actions:
+            setDefault:   { label: Default, action: setDefault }
+            _edit:      ~
+            _delete:      ~
+      filter:  
+          display: [name,status]
+      form:
+        display:  [name ,culture, status]
+      edit:    ~
+      new:     
+        title: New Language

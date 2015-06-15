@@ -1,0 +1,28 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+index:
+  is_secure: false
+
+deleteimage:
+  is_secure: false
+
+verify:
+  is_secure: false
+
+uploadimages:
+  is_secure: false
+
+payment:
+  is_secure: false
+
+ipn:
+  is_secure: false
+
+<?php $is_user_login = SettingTable::getSettingByName('is_user_login')->getValue(); ?>
+postads:
+  is_secure: <?php echo ($is_user_login == 'on') ? 'true' : 'false' ?>
+
+all:
+  is_secure: true
+  credentials: user

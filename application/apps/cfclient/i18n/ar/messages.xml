@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+    <file source-language="EN" target-language="ar" datatype="plaintext" original="messages" date="2011-08-01T16:21:06Z" product-name="messages">
+        <body> 
+            <trans-unit id="1">
+                <source>cap_register</source>
+                <target>اشترك</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>cap_sign_in</source>
+                <target>تسجيل الدخول</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>cap_name</source>
+                <target>اسم</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_email</source>
+                <target>البريد الإلكتروني</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_messages</source>
+                <target>رسائل</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_phone</source>
+                <target>هاتف</target>
+            </trans-unit>
+	  
+            <trans-unit id="3">
+                <source>cap_help</source>
+                <target>مساعدة</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_about_us</source>
+                <target>حول بنا</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_select_country</source>
+                <target>مرحبا بكم في SfClassi - اختر بلدك</target>
+            </trans-unit>
+	  
+            <trans-unit id="5">
+                <source>cap_select_city</source>
+                <target>اختيار مدينة الخاص بك</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>cap_select_category</source>
+                <target>اختر الفئة الخاصة بك</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_search_select_category</source>
+                <target>حدد الفئة</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>copy_rights</source>
+                <target>%website_title%، جميع الحقوق محفوظة.</target>
+            </trans-unit>	
+
+	  
+            <trans-unit id="8">
+                <source>welcome</source>
+                <target>ترحيب</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_advertise</source>
+                <target>أعلن</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>cap_advertise_tag</source>
+                <target>الإعلان على SfClassi</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>cap_home</source>
+                <target>منزل</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_faq</source>
+                <target>التعليمات</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>cap_condition</source>
+                <target>حالة</target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>msg_record_not_found</source>
+                <target>غير متوفر الإعلانات</target>
+            </trans-unit>
+
+            <trans-unit id="16">
+                <source>home_page_title</source>
+                <target>نرحب SfClassi: البحث الإعلانات المبوبة، شارك في اعلانات مبوبة مجانية للإلكترونيات، عقارات، وظائف، سيارات، بضائع، هوايات</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>home_page_description</source>
+                <target>SfClassi الإعلانات المبوبة مجانا ومشاركة البحث على الانترنت اعلانات مبوبة للإلكترونيات، عقارات، وظائف، سيارات، بضائع، هوايات.</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>home_page_keywords</source>
+                <target>الإعلانات المبوبة للإلكترونيات، إعلانات مبوبة للعقارات،اعلانات مبوبة عن عمل، إعلانات مبوبة للسيارات,اعلانات مبوبة للبضائع، إعلانات مبوبة للهوايات.</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>state_page_title</source>
+                <target>SfClassi: الدولة الدولة٪ للإلكترونيات، عقارات، وظائف، سيارات، بضائع، هوايات</target>
+            </trans-unit>
+
+            <trans-unit id="20">
+                <source>state_page_decription</source>
+                <target>إعلانات للإلكترونيات، عقارات، وظائف، سيارات، بضائع، هوايات</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>category_page_title</source>
+                <target>SfClassi: المدينة٪٪ موقع للإلكترونيات، عقارات، وظائف، سيارات، بضائع، هوايات</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>category_page_decription</source>
+                <target>إعلانات للإلكترونيات، عقارات، وظائف، سيارات، بضائع، هوايات</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>myaccount_page_title</source>
+                <target>SfClassi: إعلان قائمة بلدي </target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>image_page_title</source>
+                <target>SfClassi: تحميل صور الإعلانات</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>post_ad_page_title</source>
+                <target>SfClassi : أضف الإعلان المبوب</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>cap_nav_home</source>
+                <target>منزل</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_support</source>
+                <target>دعم</target>
+            </trans-unit>
+
+            <trans-unit id="28">
+                <source>cap_submit</source>
+                <target>عرض</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>cap_view</source>
+                <target>رؤية</target>
+            </trans-unit>
+	
+            <trans-unit id="30">
+                <source>cap_delete</source>
+                <target>حذف</target>
+            </trans-unit>	  
+
+            <trans-unit id="31">
+                <source>cap_edit</source>
+                <target>تحرير</target>
+            </trans-unit>	  
+	  
+            <trans-unit id="32">
+                <source>cap_ad_here</source>
+                <target>أعلن هنا</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>cap_search_sfclassi</source>
+                <target>ابحث في SfClassi</target>
+            </trans-unit>	  
+            <trans-unit id="33">
+                <source>cap_select_category</source>
+                <target>حدد الفئة</target>
+            </trans-unit>	  
+
+            <trans-unit id="26">
+                <source>cap_replyad</source>
+                <target>الرد على هذا SfClassi</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>power_by</source>
+                <target>تصميم وتطوير</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>cap_error404</source>
+                <target>انتبه، لم يتم العثور على الصفحة</target>
+            </trans-unit>	
+	  
+            <trans-unit id="33">
+                <source>cap_search</source>
+                <target>نتائج البحث</target>
+            </trans-unit>	
+            <trans-unit id="33">
+                <source>cap_search_btn</source>
+                <target>البحث</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>cap_select_category</source>
+                <target>حدد الفئة</target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>cap_select_path</source>
+                <target>رابط خاطئ، الرجاء اختيار البلد ثم المدينة ثم الدولة والفئة </target>
+            </trans-unit>	
+
+            <trans-unit id="33">
+                <source>cap_post_ad</source>
+                <target>بنشر إعلان مجانية</target>
+            </trans-unit>	
+
+            <trans-unit id="6">
+                <source>cap_find_in</source>
+                <target>تجد في الإعلانات</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_select_province</source>
+                <target>ضبط المدينة أو المقاطعة في البلاد٪٪</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_popular_city</source>
+                <target>مدن شعبية</target>
+            </trans-unit>
+	  
+            <trans-unit id="6">
+                <source>cap_popular_states</source>
+                <target>شعبية الولايات</target>
+            </trans-unit>
+	  
+            <trans-unit id="6">
+                <source>change_city_province</source>
+                <target>اختيار مدينة أو محافظة</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>upload_multiple_images</source>
+                <target>تحميل أكثر من 10 صور في JPG، PNG، GIF تنسيق</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>msg_post_edit_success</source>
+                <target>تم تحديث المرسلات بنجاح</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_more_states_cities</source>
+                <target>المزيد من الدول والمدن</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>select_country</source>
+                <target>اختر البلد بأكملها</target>
+            </trans-unit>
+
+
+            <trans-unit id="6">
+                <source>cap_remove</source>
+                <target>نزع</target>
+            </trans-unit>  
+      
+            <trans-unit id="6">
+                <source>cap_are_you_sure</source>
+                <target>هل أنت متأكد؟</target>
+            </trans-unit>  
+                
+                          
+
+        </body>
+    </file>
+</xliff>

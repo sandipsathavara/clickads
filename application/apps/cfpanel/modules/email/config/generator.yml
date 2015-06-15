@@ -1,0 +1,27 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Emails
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          emails
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+         display: [ title, subject, from_email,status ]
+         table_method: doSelectJoinTranslation
+      filter:  ~
+      form:    
+        display: 
+          Content: [ <?php echo implode(',' , LanguagesTable::getAllActiveLanguage() ) ?> ]
+          Admin: [ from_email,status ]
+      edit:    
+          title: Editing <i>"%%title%%"</i>  Email
+      new:     ~

@@ -1,0 +1,27 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Posts
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          posts
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        created_at: { date_format: dd-MM-yy }
+        category: { lable: Category  }  
+        name: { lable: "Username"  }  
+      list:    
+        display: [ title,category,is_featured,created_at ]
+        table_method: doSelectJoin
+      filter:  ~
+      form:
+        class: AdminPostsForm
+      edit:    ~
+      new:     ~

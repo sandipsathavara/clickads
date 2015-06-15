@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="en_US" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_email</source>
+                <target>E-mail</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>cap_password</source>
+                <target>Passwort</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>msg_email_required</source>
+                <target>E-mail wird benötigt</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>msg_password_required</source>
+                <target>Password wird benötigt</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>cap_logout_success</source>
+                <target>Erfolgreich ausgeloggt</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_login</source>
+                <target>Einloggen</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>msg_username_password_wrong</source>
+                <target>Falsche E-mail oder Passwort</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>cap_rememberme</source>
+                <target>Eingeloggt Bleiben</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>cap_create_new_account</source>
+                <target>Neues Konto erstellen</target>
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>cap_forget_password</source>
+                <target>Passwort vergessen?</target>
+            </trans-unit>
+
+            <trans-unit id="39">
+                <source>cap_login_me</source>
+                <target>Einloggen</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

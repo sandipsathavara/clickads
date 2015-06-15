@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<xliff version="1.0">
+    <file original="global" source-language="ar" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_registration</source>
+                <target>الاشتراك</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_nickname</source>
+                <target>كنية</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_password</source>
+                <target>كلمة السر</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_repeat_password</source>
+                <target>كرر كلمة السر</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_email</source>
+                <target>البريد الإلكتروني</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_verification_code</source>
+                <target>رمز التحقق</target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>I accept the Terms and Conditions</source>
+                <target>أوافق على الشروط والأحكام</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>msg_nickname_required</source>
+                <target>مطلوب اللقب</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>msg_password_required</source>
+                <target>مطلوب كلمة المرور</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>msg_email_required</source>
+                <target>مطلوب البريد الإلكتروني</target>
+            </trans-unit>
+
+            <trans-unit id="24">
+                <source>msg_retype_password_required</source>
+                <target>أعد كتابة كلمة المرور مطلوب</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_captcha_required</source>
+                <target>يرجى إدخال الأحرف من الصورة</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_invalid_email</source>
+                <target>إدخال بريد إلكتروني صالح</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>msg_password_not_match</source>
+                <target>يجب أن تكون كلمة المرور أعد كتابة نفس كلمة المرور</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>msg_email_not_match</source>
+                <target>يجب أن تكون إعادة كتابة البريد الإلكتروني بنفس البريد الإلكتروني</target>
+            </trans-unit>
+
+            <trans-unit id="31">
+                <source>msg_invalid_captcha</source>
+                <target>إدخال رمز التحقق صالحة</target>
+            </trans-unit>
+
+            <trans-unit id="32">
+                <source>msg_invalid_length</source>
+                <target>إدخال رمز التحقق صالحة</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>msg_term_condition</source>
+                <target>قبول الأجل وحالة</target>
+            </trans-unit>
+
+            <trans-unit id="34">
+                <source>msg_min_password</source>
+                <target>يجب أن يكون كلمة السر لا يقل عن %min_length% حرفا</target>
+            </trans-unit>
+
+            <trans-unit id="35">
+                <source>msg_max_password</source>
+                <target>يمكن أن تكون أطول كلمة السر من %max_length% حرفا</target>
+            </trans-unit>
+
+            <trans-unit id="36">
+                <source>msg_min_nickname</source>
+                <target>يجب أن يكون اللقب لا يقل عن %min_length% حرفا.</target>
+            </trans-unit>
+
+            <trans-unit id="37">
+                <source>msg_max_nickname</source>
+                <target>يمكن أن تكون أطول اللقب من %max_length% حرفا.</target>
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>msg_email_exist</source>
+                <target>هذا البريد الإلكتروني موجود مسبقا</target>
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>cap_register_me</source>
+                <target>اشترك البيانات</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

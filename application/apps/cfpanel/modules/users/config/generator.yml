@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Users
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          users
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+         sort:    [ created_at, desc ]
+         display: [ nickname,email, status ]
+         table_method: doSelectUsers
+      filter:
+         title: 'Search' 
+      form:    
+         display: [ nickname,email,password, status ]
+      edit:    ~
+      new:     ~

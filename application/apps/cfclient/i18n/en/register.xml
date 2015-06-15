@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<xliff version="1.0">
+    <file original="global" source-language="en_US" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_registration</source>
+                <target>Sign up</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_nickname</source>
+                <target>Nickname</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>cap_password</source>
+                <target>Password</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_repeat_password</source>
+                <target>Repeat Password</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_email</source>
+                <target>Email</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_verification_code</source>
+                <target>Verification Code</target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>I accept the Terms and Conditions</source>
+                <target>I accept the Terms and Conditions</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>msg_nickname_required</source>
+                <target>Nickname is required</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>msg_password_required</source>
+                <target>Password is required</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>msg_email_required</source>
+                <target>Email is required</target>
+            </trans-unit>
+
+            <trans-unit id="24">
+                <source>msg_retype_password_required</source>
+                <target>Retype Password is required</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_captcha_required</source>
+                <target>Please enter characters from image</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_invalid_email</source>
+                <target>Enter a valid email</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>msg_password_not_match</source>
+                <target>The Retype Password must be same as Password</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>msg_email_not_match</source>
+                <target>The Retype Email must be same as Email</target>
+            </trans-unit>
+
+            <trans-unit id="31">
+                <source>msg_invalid_captcha</source>
+                <target>Enter a valid verification Code</target>
+            </trans-unit>
+
+            <trans-unit id="32">
+                <source>msg_invalid_length</source>
+                <target>Enter a valid verification Code</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+                <source>msg_term_condition</source>
+                <target>Accept term and condition</target>
+            </trans-unit>
+
+            <trans-unit id="34">
+                <source>msg_min_password</source>
+                <target>Password must have at least %min_length% characters</target>
+            </trans-unit>
+
+            <trans-unit id="35">
+                <source>msg_max_password</source>
+                <target>Password cannot be longer than %max_length% characters</target>
+            </trans-unit>
+
+            <trans-unit id="36">
+                <source>msg_min_nickname</source>
+                <target>Nickname must have at least %min_length% characters.</target>
+            </trans-unit>
+
+            <trans-unit id="37">
+                <source>msg_max_nickname</source>
+                <target>Nickname cannot be longer than %max_length% characters.</target>
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>msg_email_exist</source>
+                <target>This email already exists</target>
+            </trans-unit>
+
+            <trans-unit id="38">
+                <source>cap_register_me</source>
+                <target>REGISTER ME</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

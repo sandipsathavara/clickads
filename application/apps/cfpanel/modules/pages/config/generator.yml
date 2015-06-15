@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Pages
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          pages
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+         slug: { label: Link ,help:'Slug can only be letters, numbers and dash'} 
+      list:    
+         display: [ title, slugurl , status ]
+         table_method: doSelectJoinTranslation
+      filter: ~  
+      form: 
+        display:
+          Url: [slug]  
+          Content: [ <?php echo implode(',' , LanguagesTable::getAllActiveLanguage() ) ?> ]
+          Admin: [ status ]
+      edit:
+        title: Editing Page <i>"%%title%%"</i>
+      new:     
+         title: New Page 

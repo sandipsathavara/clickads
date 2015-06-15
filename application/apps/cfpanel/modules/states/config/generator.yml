@@ -1,0 +1,35 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           States
+    theme:                 sfpanel
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          states
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields: ~
+      list:    
+        display: [ name, country_by_id , status ]
+        table_method: doSelectJoinTranslation
+        fields:
+           country_by_id: {label: "Country"} 
+        object_actions:
+             addcity: 
+               label: "Add City"
+               action: addcity
+               params: 
+                 country_id: %%states.country_id%%
+                 id: %%states.id%%
+             _edit:      ~
+             _delete:    ~
+      filter: ~ 
+      form:    
+        display:  [ country_id , <?php echo implode(',' , LanguagesTable::getAllActiveLanguage() ) ?> , is_popular,status]
+      edit:    ~
+      new:     ~

@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Welcome SfClassi Administrator Panel
+    description:  SfPanel, SfClassi Administrator Panel
+    keywords:     SfPanel, SfClassi Administrator Panel
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:     [/sfPanelThemePlugin/css/style.css,/sfPanelThemePlugin/css/jquery.wysiwyg.css,/sfPanelThemePlugin/css/facebox.css,/sfPanelThemePlugin/css/visualize.css,,/sfPanelThemePlugin/css/date_input.css]
+  #stylesheets:    [bootstrap.css,bootstrap-responsive.css]
+
+  javascripts:    [jquery.min.js]
+
+  has_layout:     true
+  layout:         layout

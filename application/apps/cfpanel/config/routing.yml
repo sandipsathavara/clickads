@@ -1,0 +1,157 @@
+emails:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Emails
+    module:               email
+    prefix_path:          /email
+    column:               id
+    with_wildcard_routes: true
+
+posts:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Posts
+    module:               posts
+    prefix_path:          /posts
+    column:               id
+    with_wildcard_routes: true
+
+pages_testPage:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Pages
+    module:               testPage
+    prefix_path:          /testPage
+    column:               id
+    with_wildcard_routes: true
+
+ads:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Ads
+    module:               ads
+    prefix_path:          /ads
+    column:               id
+    with_wildcard_routes: true
+
+pages:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Pages
+    module:               pages
+    prefix_path:          /pages
+    column:               id
+    with_wildcard_routes: true
+
+users:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Users
+    module:               users
+    prefix_path:          /users
+    column:               id
+    with_wildcard_routes: true
+
+citys:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Citys
+    module:               citys
+    prefix_path:          /citys
+    column:               id
+    with_wildcard_routes: true
+
+states:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                States
+    module:               states
+    prefix_path:          /states
+    column:               id
+    with_wildcard_routes: true
+
+countries:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Countries
+    module:               countries
+    prefix_path:          /countries
+    column:               id
+    with_wildcard_routes: true
+
+email:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Email
+    module:               email
+    prefix_path:          /email
+    column:               id
+    with_wildcard_routes: true
+
+languages:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Languages
+    module:               languages
+    prefix_path:          /languages
+    column:               id
+    with_wildcard_routes: true
+
+categories:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Categories
+    module:               categories
+    prefix_path:          /categories
+    column:               id
+    with_wildcard_routes: true
+
+states_by_country_id:
+  url:    states/addstate/:country_id
+  param:  { module: states, action: addstate }
+
+city_by_state_country_id:
+  url: citys/addcity-:state_id-:country_id
+  options: { segment_separators: ['/','-','.']}
+  param: { module: citys, action: addcity }
+
+dashboard:
+  url:    login/dashboard
+  param:  { module: login, action: welcome }
+
+setting:
+  url:    /setting
+  param:  { module: setting, action: index }
+
+featurelist:
+  url:    /featurelist
+  param:  { module: setting, action: featurelist }
+
+change_status:
+  url:    /change_status/:id/:status
+  param:  { module: posts, action: status }
+
+location_import:
+  url:    /location/import
+  param:  { module: countries, action: import }
+
+
+
+
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: languages, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

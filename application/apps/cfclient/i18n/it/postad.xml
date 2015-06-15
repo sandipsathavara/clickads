@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<xliff version="1.0">
+    <file original="global" source-language="it" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>cap_post_ad</source>
+                <target>Inserisci un annuncio gratuito</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>cap_title</source>
+                <target>Titolo</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_price</source>
+                <target>Prezzo</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_name</source>
+                <target>Nome</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>cap_seller_info</source>
+                <target>Informazioni sul venditore</target>
+            </trans-unit>
+  
+
+            <trans-unit id="5">
+                <source>cap_description</source>
+                <target>Descrizione</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>cap_email</source>
+                <target>Email</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>cap_map</source>
+                <target>Mappa</target>
+            </trans-unit>
+
+            <trans-unit id="8">
+                <source>cap_zip</source>
+                <target>Cap</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>cap_reply_to</source>
+                <target>Rispondi</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>cap_phone</source>
+                <target>Telefono</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>msg_title_required</source>
+                <target>Il titolo e' richiesto</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>msg_description_required</source>
+                <target>La descrizione e' richiesta</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>msg_email_required</source>
+                <target>La Email e' richiesta</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_price_required</source>
+                <target>Il prezzo e' richiesto</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_phone_required</source>
+                <target>Il telefono e' richiesto</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_name_required</source>
+                <target>Il nome e' richiesto</target>
+            </trans-unit>
+
+
+            <trans-unit id="27">
+                <source>msg_invalid_email</source>
+                <target>Inserisci una Email valida</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_zip_required</source>
+                <target>Il cap e' richiesto</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_invalid_price</source>
+                <target>Inserisci un prezzo corretto</target>
+            </trans-unit>
+	  
+            <trans-unit id="27">
+                <source>msg_invalid_phone</source>
+                <target>Inserisci un telefono corretto</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>msg_image_upload_limit_exist</source>
+                <target>Raggiunto il limite </target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>cap_classi_list</source>
+                <target>Annunci in</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>cap_gallery</source>
+                <target>Galleria</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>cap_share</source>
+                <target>Condividi</target>
+            </trans-unit>
+	  
+            <trans-unit id="27">
+                <source>cap_ads_cover_image</source>
+                <target>Ads Cover Image</target>
+            </trans-unit>
+
+            <trans-unit id="28">
+                <source>cap_ads_image</source>
+                <target>Image</target>
+            </trans-unit>
+
+            <trans-unit id="28">
+                <source>cap_caption</source>
+                <target>Caption</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>cap_add_more_image</source>
+                <target>Add More Images</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_upload_image</source>
+                <target>Upload Images</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>post_classifiled_title</source>
+                <target>Inserisci il tuo annuncio</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_submit_and_images</source>
+                <target>Submit And Upload Image</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_submit_complete</source>
+                <target>Submit And Complete</target>
+            </trans-unit>
+	  
+            <trans-unit id="30">
+                <source>cap_cancel</source>
+                <target>Cancella</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_back</source>
+                <target>Indietro</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>cap_complete</source>
+                <target>Completato</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_select_country</source>
+                <target>Seleziona una nazione</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_select_state</source>
+                <target>Regione</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_select_city</source>
+                <target>citta'</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_city</source>
+                <target>Citta'</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_post_country</source>
+                <target>Regione</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_state</source>
+                <target>Regione</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_location</source>
+                <target>Location</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_category</source>
+                <target>Categoria</target>
+            </trans-unit>
+	  
+            <trans-unit id="26">
+                <source>cap_select_category</source>
+                <target>Seleziona la categoria</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_add_file</source>
+                <target>Add files...</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_start_upload</source>
+                <target>Start Upload</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_cancel_upload</source>
+                <target>Cancel Upload</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_delete_upload</source>
+                <target>Cancella</target>
+            </trans-unit>
+	  
+            <trans-unit id="26">
+                <source>cap_notes</source>
+                <target>Note</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_note1</source>
+                <target>The maximum number of files 10.</target>
+            </trans-unit>
+
+
+            <trans-unit id="26">
+                <source>cap_note2</source>
+                <target>The maximum file size is %size%  .</target>
+            </trans-unit>
+
+
+            <trans-unit id="26">
+                <source>cap_note3</source>
+                <target>Only image files (%files%) are allowed .</target>
+            </trans-unit>
+
+
+            <trans-unit id="26">
+                <source>cap_note4</source>
+                <target>You can (%drag_drop%)  files from your Computer on this webpage .</target>
+            </trans-unit>	  	  
+	  	  
+            <trans-unit id="26">
+                <source>cap_note5</source>
+                <target>First image will become your cover(main) image .</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_replyad</source>
+                <target>Rispondi all'annuncio</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_select_category</source>
+                <target>Select a Category</target>
+            </trans-unit>
+	  
+            <trans-unit id="26">
+                <source>post_reply_success</source>
+                <target>Reply has been sent successfully</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_enter_message</source>
+                <target>Message is required</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_min_message</source>
+                <target>Message must have at least %min_length% characters.</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_max_message</source>
+                <target>Message cannot be longer than %max_length% characters.</target>
+            </trans-unit>
+
+
+            <trans-unit id="26">
+                <source>msg_enter_email</source>
+                <target>Email is required</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>msg_enter_name</source>
+                <target>Name is required</target>
+            </trans-unit>
+
+
+            <trans-unit id="26">
+                <source>msg_select_language</source>
+                <target>Language is required</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_language</source>
+                <target>Language</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_select_language</source>
+                <target>Select Language</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_photo</source>
+                <target>Foto</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_post</source>
+                <target>Inserisci l'annuncio</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_featured_ad</source>
+                <target>Annuncio in evidenza</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>cap_featured_list</source>
+                <target>Metti il mio annuncio in evidenza</target>
+            </trans-unit>
+      
+
+            <trans-unit id="26">
+                <source>help_featured_list</source>
+                <target>Il tuo annuncio apparira' in evidenza nella sua categoria</target>
+            </trans-unit>
+
+
+            
+        </body>
+    </file>
+</xliff>
